@@ -1,0 +1,151 @@
+div.user_thumb {
+border: 1px solid #CCCCCC;
+padding: 4px;
+float:center;
+width:140px;
+height:140x;
+margin-left:auto;
+margin-right:auto;
+margin-top:5px;
+margin-bottom:2px;
+font-size: 1em;
+}
+
+.x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml
+{
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+span.title {
+font-size: 1.01em;
+font-weight: bold;
+color: #333; 
+}
+
+span.postdate {
+font-size: 14px;
+color: #999;
+}
+
+div.posted_video {
+font-size: 15px;
+padding: 0px;
+}
+
+.video_options a {
+	text-decoration:none;
+	color:#000000;
+	font-size: 14px;
+	height: 51px;
+}
+
+.video_options a:active {
+	color: #6C3;
+}
+
+.x-toolbar .x-field-search .x-field-input:before {
+    top: .5em;
+}
+
+.x-field-search .x-field-input .x-form-field {
+    margin-left: 1.2em;
+}
+
+.table_div {
+    position: relative;
+    text-align: center;
+    font-size: .96em;
+    padding: 5px;
+    margin: 14px 0px 18px;
+}
+
+.myv_chat_doc .x-form-fieldset {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    margin: 0px !important;
+}
+
+#special_1{
+    margin-top: 10px;
+}
+
+.myv_chats_padding_one .x-form-label {
+    padding: 3px !important;
+}
+
+#comment_btn{
+	margin-top:60px;
+	font-size:1.21em;
+}
+
+#collect_btn{
+	margin-top:60px;
+	font-size:1.21em;
+}
+
+.comment_title {
+    font-size: 26px;
+    color: #fff;
+    background: #6C3;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+div.collected_title {
+    font-size: 13pt;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.video_title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.video-link-span {
+	background:transparent url(../images/1403040087_play_alt.png) no-repeat scroll 0pt 50%;
+	background-size: 100px 100px;
+	cursor:pointer;
+	color:#000000;
+	display:block;
+	height:100px;
+	position:absolute;
+	text-align:center;
+	text-decoration:none;
+	vertical-align:bottom;
+	width:100px;
+	opacity: 0.8;
+}
+
+.video-js {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.new_table{
+	width:100%;
+	font-size:1.1em;
+}
+#myHome{
+    font-size:1.4em; 
+}

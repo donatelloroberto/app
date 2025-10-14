@@ -1,0 +1,10 @@
+@import '../themes/stylesheets/sencha-touch/default';
+@import '../themes/stylesheets/sencha-touch/default/all';
+
+@include icon-font('IcoMoon', inline-font-files('pictos/icomoon.woff', woff, 'pictos/icomoon.ttf', truetype, 'pictos/icomoon.svg', svg));
+
+@include icon('arrow-left2', '#', 'IcoMoon');
+@include icon('bubble', '!', 'IcoMoon');
+
+@include icon('video');
+@include icon('chat2');

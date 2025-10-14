@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.myvidster" version="7.25" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MyVidster</name>
+    <description>
+        Collect the videos you love
+    </description>
+    <author email="marques@myvidster.com" href="http://www.myvidster.com">
+        Team MyVidster
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <platform name="ios">
+        <feature name="ChromeCastPlugin">
+            <param name="ios-package" value="ChromeCastPlugin" />
+        </feature>
+    </platform>
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>
+

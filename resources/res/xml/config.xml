@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="http://www.w3.org/ns/widgets" xmlns:aapt="http://schemas.android.com/aapt" id="com.myvidster" version="8.16">
+    <feature name="AmazonMobileAdsPlugin">
+        <param name="android-package" value="com.amazon.mas.cpt.ads.AmazonMobileAdsPlugin"/>
+    </feature>
+    <feature name="VideoPlayer">
+        <param name="android-package" value="com.phonegap.plugins.videoplayer.VideoPlayer"/>
+    </feature>
+    <feature name="GAPlugin">
+        <param name="android-package" value="com.appfeel.cordova.analytics.GAPlugin"/>
+    </feature>
+    <feature name="FingerprintAuth">
+        <param name="android-package" value="com.cordova.plugin.android.fingerprintauth.FingerprintAuth"/>
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion"/>
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager"/>
+    </feature>
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp"/>
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device"/>
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification"/>
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <allow-navigation href="cdvfile:*"/>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer"/>
+    </feature>
+    <feature name="AndroidFullScreen">
+        <param name="android-package" value="com.mesmotronic.plugins.FullScreenPlugin"/>
+    </feature>
+    <feature name="Idfa">
+        <param name="android-package" value="by.chemerisuk.cordova.advertising.IdfaPlugin"/>
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+    </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia"/>
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager"/>
+    </feature>
+    <feature name="PictureInPicture">
+        <param name="android-package" value="cordova.plugin.pip.PictureInPicture"/>
+    </feature>
+    <feature name="YoikScreenOrientation">
+        <param name="android-package" value="net.yoik.cordova.plugins.screenorientation.YoikScreenOrientation"/>
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="Chromecast">
+        <param name="android-package" value="acidhax.cordova.chromecast.Chromecast"/>
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin"/>
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing"/>
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture"/>
+    </feature>
+    <feature name="CardIOPlugin">
+        <param name="android-package" value="com.velocitywebworks.plugins.cardio.CardIOPlugin"/>
+    </feature>
+    <feature name="OpenTokPlugin">
+        <param name="android-package" value="com.tokbox.cordova.OpenTokAndroidPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <name>MyVidster
+    </name>
+    <description> Collect the videos you love. 
+    </description>
+    <author email="mail@myvidster.com" href="https://www.myvidster.com"> Team MyVidster 
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <allow-intent href="market:*"/>
+    <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png"/>
+    <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png"/>
+    <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png"/>
+    <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png"/>
+    <icon density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png"/>
+    <icon density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png"/>
+    <splash density="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png"/>
+    <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png"/>
+    <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png"/>
+    <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png"/>
+    <splash density="port-xxhdpi" src="res/screen/android/screen-xxhdpi-portrait.png"/>
+    <splash density="port-xxxhdpi" src="res/screen/android/screen-xxxhdpi-portrait.png"/>
+    <resource-file src="google-services.json" target="app/google-services.json"/>
+    <preference name="loglevel" value="DEBUG"/>
+    <preference name="SplashScreenDelay" value="10000"/>
+    <preference name="SplashMaintainAspectRatio" value="true"/>
+    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
+    <preference name="loadUrlTimeoutValue" value="60000"/>
+    <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="Fullscreen" value="false"/>
+</widget>

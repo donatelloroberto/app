@@ -1,0 +1,125 @@
+
+<!doctype html>
+	<html>
+	<head>
+	<title>MyVidster</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- 
+	<meta http-equiv="Content-Security-Policy" content="
+			default-src 'self' 'unsafe-inline' 'unsafe-eval' data: gap: https://ssl.gstatic.com;
+			style-src 'self' 'unsafe-inline' https://*.myvidster.com;
+			style-src-elem 'self' 'unsafe-inline' https://*.myvidster.com;
+			media-src *;
+			img-src * data: content:;
+			connect-src *;
+			script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://*.myvidster.com https://*.pusher.com http://*.pusher.com 
+			">
+	-->
+	
+		  <meta http-equiv="Content-Security-Policy" content="https://ssl.gstatic.com;"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta names="apple-mobile-web-app-status-bar-style" content="black" />
+	<style type="text/css">
+		body
+		{
+			background-color: #000;
+		}
+	</style>
+    <link rel="stylesheet" href="resources/css/sencha-touch.css" type="text/css">
+	<script type="text/javascript" src="opentok.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="sencha-touch-all.js"></script>
+	<script type="text/javascript" src="moment-with-langs.js"></script>
+    <script type="text/javascript">
+		function roundMinutes(date) {
+			date.setHours(date.getHours() + Math.round(date.getMinutes()/60));
+			date.setMinutes(0);
+			return date;
+		}
+		
+		var date = new Date();
+		roundMinutes(date);
+		var cachebuster = date.getMonth().toString()+date.getDay().toString()+date.getHours().toString();
+		var domain = "https://m.myvidster.com/";
+		//for testing!
+		var cachebuster = Math.round(new Date().getTime() / 1000);
+        var domain = "";
+        document.write('<link'+' rel="stylesheet" href="' +domain+ 'css/myvidster.css?cb=' +cachebuster+'" type="text/css">');
+		
+		document.write('<link'+' rel="stylesheet" href="' +domain+ 'css/video-js.min.css?cb=' +cachebuster+'" type="text/css">');
+		document.write('<link'+' rel="stylesheet" href="' +domain+ 'css/videojs.vast.vpaid.min.css?cb=' +cachebuster+'" type="text/css">');
+		
+		document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/video.min.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+		document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/videojs.vast.vpaid.min.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+		
+		document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/pusher.min.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+
+		document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/templates.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+        document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/data.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+        document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/functions.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+        document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/buttons.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+        document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/index.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+	
+		document.write('<scr'+'ipt type="text/javascript" src="' +domain+ 'js/custom_url.js?cb=' +cachebuster+'"></scr' + 'ipt>');
+	
+	</script>
+
+    <script type="text/javascript">
+        var glb_device_type2 = '';
+        var agent_mobile2 = (navigator.userAgent).toLowerCase().indexOf('mobile') > -1;
+        var agent_mobile22 = (navigator.userAgent).toLowerCase().indexOf('ipad') > -1;
+		
+		if(Ext.os.is.Desktop){ 
+			glb_device_type2 = 'desktop'; 
+			document.write('<scr'+'ipt type="text/javascript" src="' +"opentok.min.js" +'"></scr' + 'ipt>');
+	
+		}
+		else if(agent_mobile2 && !agent_mobile22){ glb_device_type2 = 'phone'; }
+		else{ glb_device_type2 = 'tablet'; }
+        if(glb_device_type2 == 'tablet')
+	    {
+	    	document.write('<link'+' rel="stylesheet" href="'+domain+'css/myvidster_tablet.css?cb=' +cachebuster+'" type="text/css">');
+	    }
+	</script>
+</head>
+<body>
+
+
+
+
+<div id="videochat_container_table" style="display:none;position:absolute;top:0;width:100%;height:100%;background-color:black;">
+	<table style="margin:0px auto;text-align:center;background-color:black;border-collapse:collapse;">
+			<tr>
+			<td colspan=2 style='height:30px;vertical-align:middle;'> 
+				<div id="tb_title" style="color:green;z-index:300;width:100%;text-align:center;margin:0px auto;font-weight:bold;">Video Chat Beta</div>
+			</td>
+			</tr>
+			<tr>
+			<td style="vertical-align:top;padding-top: 5px;"> 
+			<div id="puber"><div id="puber2"></div></div>
+			</td>
+			<td style="vertical-align:top;padding-top: 5px;">
+			<div id="suber"><div id="suber2"></div></div>
+			</td>
+			</tr>
+			<tr >
+			<td colspan=2> 
+			<br/>
+				<div style="z-index:300;height:40px;width:100%;text-align:center;margin:0px auto;">
+					<span id="end_call" onclick="endcall();" style='color:white;'>Ringing...End Call</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span id="mute_btn" onclick="mutecall();" style='color:#C0C0C0;'>Mute</span>
+				</div>
+				
+	
+			</td>
+			</tr>
+			
+	</table>
+</div>
+
+
+</body>
+</html>

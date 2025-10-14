@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+           id="cordova-plugin-chromecast"
+      version="1.1.0">
+    <name>Chromecast</name>
+    <description>ChromeCast Plugin</description>
+    <keywords>cordova, chromecast</keywords>
+    <platform name="ios">
+      <config-file target="config.xml" parent="/*">
+        <feature name="ChromeCastPlugin">
+            <param name="ios-package" value="ChromeCastPlugin" />
+        </feature>
+      </config-file>
+      <source-file src="index.js" />
+      <source-file src="js/userActions.js" />
+      <source-file src="js/functions.js" />
+      <source-file src="js/ChormeCastPlugin.js" />
+      <source-file src="js/bootstrap.js" />
+    </platform>
+</plugin>

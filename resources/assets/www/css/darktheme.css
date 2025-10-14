@@ -1,0 +1,674 @@
+span.title {
+    font-size: 1.01em;
+    font-weight: bold;
+    color:white; 
+}
+.sub_links{
+    color: #FEFEFE!important;
+}
+.x-innerhtml{
+    color: #FEFEFE!important;
+    background-color: black!important;
+}
+.dark_theme_prof{
+    border: 1px solid white;
+}
+.video_options{
+    background-color: lightgray;
+}
+.details_comment{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px!important;
+}
+.img_theme{
+    -webkit-filter: invert(100%);
+    filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+.x-form-fieldset-title{
+    text-shadow: none!important;
+}
+.dark_mode_txt{
+    color:#fffafa!important;
+}
+span.postdate{
+    color:#d9d9d9;
+}
+.titlebig{
+    color:#fffafa!important;
+}
+.myv_chats .x-list .x-list-item.x-list-item-tpl .x-innerhtml{
+    background-color: black!important;
+    color:black!important;
+}
+.dark_mode_msg{
+    color: #bfbfbf!important;   
+}
+.dark_mode_msg_time{
+    color: #b3b3b3!important;
+}
+.dark_mode_msg_pic{
+    border-style: solid;
+    border-color:#d9d9d9;
+    border-width: 1px;
+}
+.cycle_text{
+    color:white;
+}
+.filter_area{
+    background-color:black;
+    border-top: 1px solid grey;
+}
+.filter_opts{
+    color: snow;
+}
+.filter_opts b{
+    color: #00A300!important;
+}
+#home_tabbar{
+    background-color:#333333!important;
+}
+#ext-toolbar-1{
+    background-color:#333333!important;
+}
+#icon_menu_tabbar{
+    background-color:#333333!important;
+}
+#userMenuToolbar{
+    background-color:#333333!important;
+}
+#search_tabbar{
+    background-color:#333333!important;
+}
+#searchToolbar{
+    background-color:#333333!important;
+}
+#home_tabbar_MsgList{
+    background-color:#333333!important;
+}
+#userListToolbarMessages{
+    background-color:#333333!important;
+}
+#home_tabbar_settings{
+    background-color:#333333!important;
+}
+#ext-toolbar-7{
+    background-color:#333333!important;
+}
+#home_tabbar_help{
+    background-color:#333333!important;
+}
+#ext-toolbar-17{
+    background-color:#333333!important;
+}
+#userListToolbarMessage{
+    background-color:#333333!important;
+}
+#home_tabbar_MsgUser{
+    background-color:#333333!important;
+}
+#userListToolbar{
+    background-color:#333333!important;
+}
+#home_tabbar_UserList{
+    background-color:#333333!important;
+}
+#ext-toolbar-2{
+    background-color:#333333!important;
+}
+#home_tabbar_video1{
+    background-color:#333333!important;
+}
+#userListToolbar2{
+    background-color:#333333!important; 
+}
+#home_tabbar_ProMember{
+    background-color:#333333!important;
+}
+#userProfileToolbar{
+    background-color:#333333!important;
+}
+#homeBottomBar_options{
+    background-color:#333333!important;
+}
+#userDiscoverToolbar{
+    background-color:#333333!important;
+}
+#user_tabbar_discover{
+    background-color:#333333!important;
+}
+#ext-toolbar-9{
+    background-color:#333333!important;
+}
+#home_tabbar_Payment{
+    background-color:#333333!important;
+}
+#userListToolbar3{
+    background-color:#333333!important;
+}
+#home_tabbar_feedback{
+    background-color:#333333!important;
+}
+#ext-toolbar-5{
+    background-color:#333333!important;
+}
+#home_tabbar_UserRegistration{
+    background-color:#333333!important;
+}
+#ext-toolbar-11{
+    background-color:#333333!important;
+}
+#home_tabbar_UserLogin{
+    background-color:#333333!important;
+}
+#ext-toolbar-19{
+    background-color:#333333!important;
+}
+#home_tabbar_InviteF{
+    background-color:#333333!important;  
+}
+#ext-element-1165{
+    color:white;
+}
+.x-list-pullrefresh-arrow{
+    color:white!important;
+}
+.x-list-pullrefresh-arrow{
+    -webkit-filter: invert(100%);
+    filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+.x-list-pullrefresh-updated{
+    color:white!important;
+}
+#home_refresh_var{
+    background-color: black!important;   
+}
+.x-list-pullrefresh-message{
+    color:white!important;
+}
+#ext-plugin-pullrefresh-1{
+    background-color: black!important;
+    color:black!important;
+}
+#ext-plugin-pullrefresh-2{
+    background-color: black!important;
+    color:black!important;
+}
+#ext-plugin-pullrefresh-3{
+    background-color: black!important;
+    color:black!important;
+}
+#ext-plugin-pullrefresh-4{
+    background-color: black!important;
+    color:black!important;
+}
+.x-toolbar-light .x-title{
+    text-shadow: none;
+}
+#ext-title-4{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-element-157{
+    background-color: black;
+}
+#ext-spacer-21{
+    background-color: black;
+}
+#ext-spacer-22{
+    background-color: black;
+}
+#ext-component-21{
+    background-color: black;  
+    color:white;
+}
+#ext-title-29{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-element-897{
+    background-color: black;
+}
+#ext-title-43{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-element-1518{
+    background-color: black;
+}
+#ext-title-49{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#search_var{
+    background-color: black!important;  
+}
+#ext-container-59{
+    background-color: black!important;
+}
+#ext-container-60{
+    background-color: black!important; 
+}
+.x-field-select .x-component-outer:after {
+    background-color: white;
+}
+#ext-list-1{
+    background-color: black!important;
+}
+#ext-list-2{
+    background-color: black!important;
+}
+#ext-input-4{
+    background-color: gray!important;
+}
+#ext-input-5{
+    background-color: gray!important;
+}
+#ext-container-59{
+    background-color: black;
+}
+#ext-element-1548{
+    background-color: black;
+}
+#Comment{
+    background-color: black;
+}
+#Comment > div > div > div > div > div > div div{
+    background-color: black;
+    color:white;
+}
+#Comment > div > div > div > div > div > div{
+    background-color:#333333!important;
+    color:#00A300!important;
+}
+#discover_discover_var{
+    background-color: black;
+}
+#discover_recommendations_var{
+    background-color: black;
+}
+#contacts_discover_var{
+    background-color: black;
+}
+#contact_list_var{
+    background-color: black;
+}
+#empty_contacts_discover_var{
+    background-color: black;
+}
+#empty_recommendations_discover_var{
+    background-color: black;
+}
+#Help{
+    background-color: black;
+}
+#Settings{
+    background-color: black;
+}
+#list_msgs_var{
+    background-color: black;  
+}
+#ext-element-1278{
+    background-color: black;
+}
+#list_videos_var{
+    background-color: black;  
+}
+#video_holder{
+    background-color: black; 
+}
+#ext-title-2{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#video_breadcrumb{
+    background-color: gray;
+}
+#video_breadcrumb2{
+    background-color: gray;
+}
+#edit_desc_text{
+    background-color: white;
+}
+#edit_video_tags{
+    background-color: white;
+}
+#edit_video_title{
+    background-color: white;
+}
+#Collect{
+    background-color: black;  
+}
+#Collect > div > div > div > div > div > div div{
+    background-color: black;
+    color:white;
+}
+#Collect > div > div > div > div > div > div{
+    background-color:#333333!important;
+    color:#00A300!important;
+}
+#EditVideo{
+    background-color: black; 
+}
+#General{
+    background-color: black; 
+}
+.video_options{
+    background-color: gray;
+    -webkit-filter: invert(100%);
+    filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+#video_holder2{
+    background-color: black!important; 
+}
+#ext-element-1077{
+    background-color: black!important; 
+}
+#LockScreen{
+    background-color: black!important; 
+}
+#ChromeCast{
+    background-color: black!important; 
+}
+#ChromeCast > div:first-child > div:first-child > div:first-child > div:first-child > div:first-child > div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-sheet-1{
+    background-color: black!important; 
+}
+#ext-spacer-105{
+    background-color: black!important; 
+}
+#ext-spacer-106{
+    background-color: black!important; 
+}
+#ext-spacer-107{
+    background-color: black!important; 
+}
+#ext-spacer-108{
+    background-color: black!important; 
+}
+#ext-spacer-109{
+    background-color: black!important; 
+}
+#ext-spacer-110{
+    background-color: black!important;  
+}
+#UserLogin{
+    background-color: black!important;
+}
+#UserRegistration{
+    background-color: black!important;
+}
+.vid_ref{
+    color:white;
+}
+#ext-title-1 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-2 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-3 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-4 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-5 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-6 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-7 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-9 div:first-child{
+    background-color:black!important;
+    color:white;
+}
+#ext-title-10 div:first-child{
+    background-color:black!important;
+    color:white;
+}
+#user_menu_list{
+    background-color:black!important;
+    color:white; 
+}
+#ext-element-153{
+    background-color:black!important;  
+}
+#EditCollection{
+    background-color: black;
+}
+#ext-title-19 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#EditCollectionToolbar div div div div{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#General > div > div > div > div > div > div div{
+    background-color: black;
+    color:white;
+}
+#General > div > div > div > div > div > div{
+    background-color:#333333!important;
+    color:#00A300!important;
+}
+#upgradetopro div div div div{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#userListToolbar div div div div{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-passwordfield-4 div{
+    background-color: white!important;
+    color:black !important;
+}
+#ext-passwordfield-3 div{
+    background-color: white!important;
+    color:black !important;
+}
+#ext-passwordfield-2 div{
+    background-color: white!important;
+    color:black !important;
+}
+#ext-passwordfield-1 div{
+    background-color: white!important;
+    color:black !important;
+}
+#lock_holder div{
+    background-color: black;
+}
+#ext-title-27 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-28 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-29 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-30 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#General > div > div > div > div > div > div div{
+    background-color: black;
+    color:white;
+}
+#General > div > div > div > div > div > div{
+    background-color:#333333!important;
+    color:#00A300!important;
+}
+#EditVideo > div > div > div > div > div > div div{
+    background-color: black;
+    color:white;
+}
+#EditVideo > div > div > div > div > div > div{
+    background-color:#333333!important;
+    color:#00A300!important;
+}
+#ext-title-33 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-34 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-35 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-36 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-37 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-38 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+
+#ext-title-39 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+
+#ext-title-42 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-43 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-44 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-45 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-46 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-47 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-48 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-49 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-50 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-51 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-52 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-53 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-54 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-55 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#ext-title-56 div:first-child{
+    background-color: #333333!important;
+    color:#00A300!important;
+}
+#userListToolbar2 + div{
+    background-color: black!important;
+}
+#userProfileToolbar + div{
+    background-color: black!important;
+}
+#userListToolbar3 + div{
+    background-color: black!important;
+}
+#msglistscroll div:first-child{
+    background-color: black!important;
+}
+#ext-toolbar-14 + div {
+    background-color: black!important;  
+}
+#sort_list{
+    background-color: black!important;  
+}
+#chromecasthold{
+    background-color: black!important;  
+}
+#search_opt input{
+    background-color: gray!important;
+    color:white;  
+    -webkit-text-fill-color:white!important;
+}
+#search_opt2 input{
+    background-color: gray!important;
+    color:white;  
+    -webkit-text-fill-color:white!important;
+}
+#PaymentForm {
+    background-color: black;
+}
+#Payment{
+    background-color: black; 
+}
+#ext-passwordfield-4 div div {
+    min-width: 0em;
+}
+.dark_mode_msg2{
+    color: #00A300!important; 
+}
+#videoEditForm > div:first-child > div:first-child > div:first-child{
+    background-color: black; 
+}
+#ext-sheet-2 {
+    background-color: black; 
+}
+#ext-sheet-3{
+    background-color: black; 
+}
+#UserPhoneInput {
+    background-color: black; 
+}
