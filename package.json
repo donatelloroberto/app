@@ -1,0 +1,55 @@
+{
+  "name": "myvidster-desktop",
+  "version": "1.0.0",
+  "description": "MyVidster Desktop App for Windows 10",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:react\" \"wait-on http://localhost:3000 && npm run start:electron\"",
+    "start:react": "cd frontend && BROWSER=none PORT=3000 yarn start",
+    "start:electron": "electron .",
+    "build": "cd frontend && yarn build",
+    "build:win": "electron-builder --win --x64",
+    "package": "npm run build && npm run build:win"
+  },
+  "build": {
+    "appId": "com.myvidster.desktop",
+    "productName": "MyVidster",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron/**/*",
+      "frontend/build/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "electron/assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "keywords": [
+    "myvidster",
+    "video",
+    "desktop",
+    "electron"
+  ],
+  "author": "MyVidster",
+  "license": "MIT",
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4",
+    "concurrently": "^8.2.0",
+    "wait-on": "^7.0.1"
+  }
+}
