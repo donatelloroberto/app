@@ -80,3 +80,4 @@ agenthub/agents/youtube/db
 android-sdk/ node_modules/electron/dist/electron
 node_modules/electron/dist/electron
 frontend/node_modules/.cache/default-development/4.pack
+frontend/node_modules/.cache/default-development/5.pack
