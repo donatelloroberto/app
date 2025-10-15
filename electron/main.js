@@ -7,6 +7,8 @@ let mainWindow = null;
 let tray = null;
 
 const isDev = !app.isPackaged;
+const fs = require("fs");
+const { pathToFileURL } = require("url");
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -26,10 +28,13 @@ function createWindow() {
   });
 
   // Load React app
-  const startUrl = isDev
-    ? 'http://localhost:3000'
-    : `file://${path.join(__dirname, '../frontend/build/index.html')}`;
+  const buildIndexPath = path.join(__dirname, "..", "frontend", "build", "index.html");
 
+const startUrl = isDev
+  ? "http://localhost:3000"
+  : (fs.existsSync(buildIndexPath)
+      ? pathToFileURL(buildIndexPath).toString() // proper file:// URL
+      : "https://www.myvidster.com");
   mainWindow.loadURL(startUrl);
 
   // Show window when ready
@@ -242,4 +247,10 @@ app.on('before-quit', () => {
 app.on('will-quit', () => {
   // Unregister all shortcuts
   globalShortcut.unregisterAll();
+});
+mainWindow.webContents.on("did-fail-load", (_ev, code, desc, url) => {
+  dialog.showErrorBox(
+    "Failed to load UI",
+    `Code: ${code}\nReason: ${desc}\nURL: ${url}\nPath tried: ${buildIndexPath}`
+  );
 });

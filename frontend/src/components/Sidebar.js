@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Search, FolderVideo, Settings, LogOut, Play, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Home, Search, Folder, Settings, LogOut, Play, ChevronLeft, ChevronRight } from 'lucide-react';
 
 function Sidebar({ isOpen, onToggle, onLogout }) {
   const location = useLocation();
@@ -8,7 +8,7 @@ function Sidebar({ isOpen, onToggle, onLogout }) {
   const navItems = [
     { path: '/', icon: Home, label: 'Home' },
     { path: '/search', icon: Search, label: 'Search' },
-    { path: '/collections', icon: FolderVideo, label: 'Collections' },
+    { path: '/collections', icon: Folder, label: 'Collections' },
   ];
 
   return (
