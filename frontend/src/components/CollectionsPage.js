@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FolderVideo, Plus, MoreVertical } from 'lucide-react';
+import { Folder, Plus, MoreVertical } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 function CollectionsPage() {
@@ -65,7 +65,7 @@ function CollectionsPage() {
         </div>
       ) : collections.length === 0 ? (
         <div className="text-center py-20">
-          <FolderVideo className="w-16 h-16 text-gray-600 mx-auto mb-4" />
+          <Folder className="w-16 h-16 text-gray-600 mx-auto mb-4" />
           <h3 className="text-xl font-semibold mb-2">No collections yet</h3>
           <p className="text-gray-400 mb-6">
             Create your first collection to organize your videos
